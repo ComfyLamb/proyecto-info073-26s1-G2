@@ -1,0 +1,46 @@
+En este avance se implementaron varios cambios al código base y nuevas adiciones a este mismo, partiendo por el ámbito visual y
+sonoro.
+
+    Sprites:
+        1- Minero
+        2- Topo
+        3- Manzana
+        4- Roca
+        5- Lava
+        6- Diamante
+
+    Pantallas:
+        1- Arreglamos la pantalla de instrucciones, ahora muestra los sprites de cada cosa y el que representan.
+        2- En el menú de inicio, al presionar la tecla (ESC) se cierra el juego, antes no pasaba pero la pantalla mostraba que sí.
+
+En el ámbito sonoro, implementamos música y sonidos por separado en sus respectivas carpetas:
+
+    Sonidos:
+        1- Roca
+        2- Diamante
+        3- Manzana
+        4- Victoria
+        5- Derrota
+    
+    Música:
+        1- Inicio
+        2- Juego
+        3- Victoria
+        4- Derrota
+
+
+Pasando a código, se agregaron funciones y líneas claves para el funcionamiento de este, entre estas está:
+
+    1- posicion_segura() #Esta función revisa que el jugador, la manzana, el topo y el diamante no aparezcan rodeados de lava.
+    2- mover_topo() #Esta función es la que se encarga del movimiento del topo, actualmente al azar usando random.
+    3- reproducir_musica() #Esta función es la responsable de que la música del juego se reproduzca de forma ordenada.
+    4- Agregamos lava como condición de derrota al hacer colision con esta, un obstáculo que aparece de forma aleatoria por el tablero.
+    5- Agregamos oxígeno como condición de derrota, este empieza en 30 y va restando 1 por segundo, al acabarse, se pierde el juego.
+
+
+Siguiendo con el código, los cambios realizados a funciones que ya estaban presentes no fueron tantos, se implementó la función
+posicion_segura() dentro de aparecer_aleatorio(), se ajustó la cantidad y dificultad de los niveles, estos teniendo más rocas,
+en poblar_tablero() se agregó el topo, la manzana y la lava.
+
+Dentro de main(), en el inicio se cargan los sprites como librería, al ser tantos esta fue la forma más ordenada de hacerlo, también
+se cargan los sonidos y en cada cambio de estado de juego, se le acompaña la banda sonora.

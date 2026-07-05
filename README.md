@@ -8,7 +8,6 @@ D = Derecha
 Espacio = Iniciar juego
 I = Instrucciones
 E = Destruir obstáculo
-P = Pausa
 
 
 OBJETIVO:

@@ -79,13 +79,6 @@ NIVELES = [
         "topo": 1,
         "manzana": 1,
         "lava": 9
-    },
-    {
-        "diamantes": 1,
-        "rocas": 150,
-        "topo": 1,
-        "manzana": 0,
-        "lava": 25
     }
 ]
 
