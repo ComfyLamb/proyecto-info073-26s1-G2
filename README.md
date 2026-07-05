@@ -19,9 +19,10 @@ Obstáculos (Rocas grises)
 Diamante (Diamante celeste)
 Topo (Topo marrón)
 Manzana (Manzana roja)
+Lava (Obstáculo rojizo)
 
 CONDICION DE VICTORIA:
-Recolectar todos los diamantes
+Recolectar todos los diamantes.
 
 CONDICION DE DERROTA:
-Colisionar con el topo o exceder el tiempo limite del oxígeno
+Colisionar con el topo, la lava o exceder el tiempo limite del oxígeno.
