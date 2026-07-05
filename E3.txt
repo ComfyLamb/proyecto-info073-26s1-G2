@@ -44,3 +44,11 @@ en poblar_tablero() se agregó el topo, la manzana y la lava.
 
 Dentro de main(), en el inicio se cargan los sprites como librería, al ser tantos esta fue la forma más ordenada de hacerlo, también
 se cargan los sonidos y en cada cambio de estado de juego, se le acompaña la banda sonora.
+
+En cuanto el uso de inteligencia artificial, esta se usó en los siguientes casos y dando las respectivas líneas en las que se encuentra:
+
+    1- En la función posicion_segura(), línea 109 a 130.
+        #La IA nos ayudó a hacernos una idea mas clara de como solucionar un problema que si bien era poco probable de ocurrir,
+        no nos queríamos arriesgar a experimentarlo.
+    2- En la función mover_topo(), línea 268 a 304.
+        #La ayuda aquí fue mas que nada la idea de usar random para el movimiento del topo.
